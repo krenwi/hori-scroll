@@ -1,6 +1,8 @@
+@media (min-aspect-ratio: 16/16) {
 .container {
-  column-width: 40em;
+  column-width: 16em;
   height: 100vh;
+  margin-bottom: 1rem;
 }
 
 .wrapper {
@@ -20,8 +22,9 @@
 
 .outer-wrapper {
   scrollbar-width: none;
-  /*-ms-overflow-style: none;*/
-}/*
+  -ms-overflow-style: none;
+}
 ::-webkit-scrollbar {
   display:none;
-}*/
+}
+}
